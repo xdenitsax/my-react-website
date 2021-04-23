@@ -1,9 +1,11 @@
 import './App.css'
+import MoreAboutMe from './components/MoreAboutMe'
 
 const App = () => {
   return (
     <div>
-      <h1>My new Project</h1>
+      <h1>Hi, my name is Denitsa.</h1>
+      <MoreAboutMe />
     </div>
   )
 }
