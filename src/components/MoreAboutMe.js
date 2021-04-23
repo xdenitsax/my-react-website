@@ -12,3 +12,4 @@ const MoreAboutMe = () => {
     </div>
   )
 }
+export default MoreAboutMe
