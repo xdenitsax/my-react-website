@@ -6,12 +6,12 @@ const MoreAboutMyself = () => {
       <h1 className='about-myself-header'>About me.</h1>
       <p className='about-myself-content'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Accumsan tortor
-        posuere ac ut consequat semper viverra nam libero. Aliquam etiam erat
-        velit scelerisque. Lorem ipsum dolor sit amet consectetur adipiscing
-        elit ut aliquam. Nisi scelerisque eu ultrices vitae auctor eu.
+        tempor incididunt ut labore et dolore magna aliqua. Neque aliquam
+        vestibulum morbi blandit cursus risus at ultrices. Facilisis sed odio
+        morbi quis commodo odio aenean. Quam quisque id diam vel quam elementum
+        pulvinar etiam. Ac ut consequat semper viverra nam libero justo laoreet.
       </p>
-      <button className='btn-about-myself'>More about me</button>
+      <button className='btn-about-myself'>More</button>
     </div>
   )
 }

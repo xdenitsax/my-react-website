@@ -1,26 +1,27 @@
 .about-myself-header {
   font-family: 'Montserrat', sans-serif;
-  color: #ffa3bd;
+  color: #1c3852;
   font-size: 30px;
-  margin-left: 70px;
-  margin-top: 130px;
+
+  text-align: center;
 }
 .about-myself-content {
   font-family: 'Montserrat', sans-serif;
-  color: #ffcad9;
+  color: #fdf3f6;
   font-size: 15px;
-  margin-left: 70px;
-  margin-right: 70px;
+  margin-left: 130px;
+  margin-right: 130px;
   margin-top: 20px;
+  text-align: center;
 }
 .btn-about-myself {
-  background-color: #ffa3bd;
+  background-color: #1c3852;
   width: 100px;
   height: 40px;
-  margin-left: 10%;
   border-style: none;
-  border-radius: 20px;
+  border-radius: 10px;
   margin-top: 30px;
   font-family: 'Montserrat', sans-serif;
-  color: #ffcad9;
+  color: #fdf3f6;
+  margin-left: 47%;
 }

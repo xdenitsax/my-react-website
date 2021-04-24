@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './Sentance.css'
 
 const Sentance = () => {
+  const [randomWord, setRandomWord] = useState('crazy')
   const getCurentDate = new Date()
   const getCurentDay = getCurentDate.getDay()
 
@@ -22,10 +23,24 @@ const Sentance = () => {
       return 'Sunday'
     }
   }
-
+  const words = [
+    'a nice',
+    'a good',
+    'an amazing',
+    'a chill',
+    'a boss',
+    'a tip-top',
+  ]
+  const timeOutWord = setTimeout(() => {
+    const word = words[Math.floor(Math.random() * words.length)]
+    setRandomWord(word)
+  }, 2000)
+  console.log(timeOutWord)
   return (
     <div>
-      <p className='sentance-bottom'>Have an amazing {dayOfTheWeek()}!</p>
+      <p className='sentance-bottom'>
+        Have {randomWord} {dayOfTheWeek()}!
+      </p>
     </div>
   )
 }

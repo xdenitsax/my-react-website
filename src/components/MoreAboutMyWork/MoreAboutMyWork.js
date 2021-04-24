@@ -1,7 +1,7 @@
 import React from 'react'
-import './MoreAboutMe.css'
+import './MoreAboutMyWork.css'
 
-const MoreAboutMe = () => {
+const MoreAboutMyWork = () => {
   return (
     <div>
       <h1 className='about-me-header'>
@@ -15,8 +15,8 @@ const MoreAboutMe = () => {
         velit scelerisque. Lorem ipsum dolor sit amet consectetur adipiscing
         elit ut aliquam. Nisi scelerisque eu ultrices vitae auctor eu.
       </p>
-      <button className='btn-about-me'>More about my work</button>
+      <button className='btn-about-me'>More</button>
     </div>
   )
 }
-export default MoreAboutMe
+export default MoreAboutMyWork
