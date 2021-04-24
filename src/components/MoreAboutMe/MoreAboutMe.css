@@ -1,0 +1,26 @@
+.about-me-header {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffa3bd;
+  font-size: 30px;
+  margin-left: 70px;
+  margin-top: 130px;
+}
+.about-me-content {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffcad9;
+  font-size: 15px;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 20px;
+}
+.btn-about-me {
+  background-color: #ffa3bd;
+  width: 100px;
+  height: 40px;
+  margin-left: 10%;
+  border-style: none;
+  border-radius: 20px;
+  margin-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffcad9;
+}
