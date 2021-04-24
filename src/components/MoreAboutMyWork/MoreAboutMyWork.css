@@ -1,0 +1,29 @@
+.about-me-header {
+  font-family: 'Montserrat', sans-serif;
+  color: #1c3852;
+  font-size: 30px;
+  margin-left: 70px;
+  margin-top: 130px;
+  text-align: center;
+}
+.about-me-content {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff1f5;
+  font-size: 15px;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.btn-about-me {
+  background-color: #1c3852;
+  width: 100px;
+  height: 40px;
+  border-style: none;
+  border-radius: 10px;
+  margin-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+  color: #fdf3f6;
+  margin-left: 47%;
+}
