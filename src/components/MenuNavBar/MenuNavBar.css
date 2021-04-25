@@ -16,7 +16,6 @@ ul {
   text-align: center;
 }
 .navBarActive {
-  opacity: 100%;
   background-color: #fdf3f6;
   position: fixed;
   width: 100%;
