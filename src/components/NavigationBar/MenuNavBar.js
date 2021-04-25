@@ -14,7 +14,9 @@ const MenuNavBar = ({ scrollToWork, scrollToAboutMe }) => {
             <li className='css-link' onClick={scrollToAboutMe}>
               ABOUT
             </li>
-            <li className='css-link'>CONTACT</li>
+            <a href='mailto:denittsaa@yahoo.com'>
+              <li className='css-link'>CONTACT</li>
+            </a>
           </ul>
         </nav>
       </div>

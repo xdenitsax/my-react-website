@@ -9,21 +9,19 @@
 .about-me-content {
   font-family: 'Montserrat', sans-serif;
   color: #fff1f5;
-  font-size: 15px;
+  font-size: 18px;
   margin-left: 120px;
   margin-right: 120px;
   margin-top: 40px;
-  text-align: center;
+  padding-top: 80px;
+  text-align: justify;
   margin-bottom: 30px;
 }
-.btn-about-me {
+
+.whole-div-about-me {
   background-color: #1c3852;
-  width: 100px;
-  height: 40px;
-  border-style: none;
-  border-radius: 10px;
-  margin-top: 30px;
-  font-family: 'Montserrat', sans-serif;
-  color: #fdf3f6;
-  margin-left: 47%;
+  height: 850px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 100px;
 }
