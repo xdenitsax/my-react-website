@@ -1,7 +1,12 @@
 import React, { useState } from 'react'
 import './MenuNavBar.css'
 
-const MenuNavBar = ({ scrollToWork, scrollToAboutMe, scrollToProjects }) => {
+const MenuNavBar = ({
+  scrollToWork,
+  scrollToAboutMe,
+  scrollToProjects,
+  scrollToHome,
+}) => {
   const [navBarScrolling, setNavBarScrolling] = useState(false)
 
   const changeBackground = () => {
@@ -18,7 +23,9 @@ const MenuNavBar = ({ scrollToWork, scrollToAboutMe, scrollToProjects }) => {
       <div className={navBarScrolling ? 'navBarActive' : 'navBar'}>
         <nav>
           <ul>
-            <li className='css-link'>HOME </li>
+            <li className='css-link' onClick={scrollToHome}>
+              HOME{' '}
+            </li>
             <li className='css-link' onClick={scrollToWork}>
               WORK
             </li>
@@ -28,9 +35,10 @@ const MenuNavBar = ({ scrollToWork, scrollToAboutMe, scrollToProjects }) => {
             <li className='css-link' onClick={scrollToProjects}>
               PROJECTS{' '}
             </li>
-            <a href='mailto:denittsaa@yahoo.com'>
-              <li className='css-link'>CONTACT</li>
-            </a>
+
+            <li className='css-link'>
+              <a href='mailto:denittsaa@yahoo.com'>CONTACT</a>
+            </li>
           </ul>
         </nav>
       </div>

@@ -9,7 +9,8 @@ const App = () => {
   const workRef = createRef()
   const aboutMeRef = createRef()
   const projectsRef = createRef()
-
+  const homeRef = createRef()
+  const scrollToHome = () => homeRef.current.scrollIntoView()
   const scrollToProjects = () => projectsRef.current.scrollIntoView()
   const scrollToWork = () => workRef.current.scrollIntoView()
   const scrollToAboutMe = () => aboutMeRef.current.scrollIntoView()
@@ -17,6 +18,8 @@ const App = () => {
   return (
     <div>
       <MenuNavBar
+        homeRef={homeRef}
+        scrollToHome={scrollToHome}
         scrollToWork={scrollToWork}
         scrollToAboutMe={scrollToAboutMe}
         scrollToProjects={scrollToProjects}

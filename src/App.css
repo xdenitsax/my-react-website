@@ -31,6 +31,15 @@
   margin-right: 55%;
 }
 
+@media screen and (max-width: 768px) {
+  .text-begining-website {
+    margin-top: 300px;
+    margin-bottom: 500px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
 .footer-text {
   font-family: 'Montserrat', sans-serif;
   color: #fdf3f6;
