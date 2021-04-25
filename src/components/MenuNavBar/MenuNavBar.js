@@ -16,8 +16,9 @@ const MenuNavBar = ({
       setNavBarScrolling(false)
     }
   }
+
   window.addEventListener('scroll', changeBackground)
-  console.log(navBarScrolling)
+
   return (
     <>
       <div className={navBarScrolling ? 'navBarActive' : 'navBar'}>
