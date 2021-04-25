@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import './Sentance.css'
+import './Sentence.css'
 
-const Sentance = () => {
+const Sentence = () => {
   const [randomWord, setRandomWord] = useState('crazy')
   const getCurentDate = new Date()
   const getCurentDay = getCurentDate.getDay()
@@ -19,8 +19,8 @@ const Sentance = () => {
       return 'Friday'
     } else if (getCurentDay === 6) {
       return 'Saturday'
-    } else if (getCurentDay === 7) {
-      return 'Sunday'
+    } else {
+      return ' Sunday'
     }
   }
   const words = [
@@ -35,14 +35,16 @@ const Sentance = () => {
     const word = words[Math.floor(Math.random() * words.length)]
     setRandomWord(word)
   }, 2000)
-  // console.log(timeOutWord)
+
   return (
     <div>
       <p className='sentance-bottom'>
-        Have {randomWord} {dayOfTheWeek()}!
+        Have {randomWord}
+        {''}
+        {dayOfTheWeek()}!
       </p>
     </div>
   )
 }
 
-export default Sentance
+export default Sentence
