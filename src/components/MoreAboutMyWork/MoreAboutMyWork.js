@@ -1,11 +1,10 @@
 import React from 'react'
 import './MoreAboutMyWork.css'
 
-const MoreAboutMyWork = () => {
+const MoreAboutMyWork = ({ workRef }) => {
   return (
-    <div>
+    <div ref={workRef}>
       <h1 className='about-me-header'>
-        {' '}
         A little more information about my work expirience.
       </h1>
       <p className='about-me-content'>

@@ -35,7 +35,7 @@ const Sentance = () => {
     const word = words[Math.floor(Math.random() * words.length)]
     setRandomWord(word)
   }, 2000)
-  console.log(timeOutWord)
+  // console.log(timeOutWord)
   return (
     <div>
       <p className='sentance-bottom'>

@@ -1,8 +1,8 @@
 import React from 'react'
 import './MoreAboutMyself.css'
-const MoreAboutMyself = () => {
+const MoreAboutMyself = ({ aboutMeRef }) => {
   return (
-    <div>
+    <div ref={aboutMeRef}>
       <h1 className='about-myself-header'>About me.</h1>
       <p className='about-myself-content'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

@@ -1,12 +1,21 @@
 import './App.css'
+import { createRef } from 'react'
 import MoreAboutMyWork from './components/MoreAboutMyWork/MoreAboutMyWork'
 import MoreAboutMyself from './components/MoreAboutMyself/MoreAboutMyself'
 import NavigationBar from './components/NavigationBar/NavigationBar'
 import Sentance from './components/Sentance/Sentance'
 const App = () => {
+  const workRef = createRef()
+  const aboutMeRef = createRef()
+  const scrollToWork = () => workRef.current.scrollIntoView()
+  const scrollToAboutMe = () => aboutMeRef.current.scrollIntoView()
+
   return (
     <div>
-      <NavigationBar />
+      <NavigationBar
+        scrollToWork={scrollToWork}
+        scrollToAboutMe={scrollToAboutMe}
+      />
       <div className='text-begining-website'>
         <span className='name-first-part'>Hi, my name is</span>
         <span className='name-second-part-name'>Denitsa Georgieva.</span>
@@ -17,8 +26,8 @@ const App = () => {
           fugiat iusto fuga praesentium optio, eaque rerum!
         </span>
       </div>
-      <MoreAboutMyWork />
-      <MoreAboutMyself />
+      <MoreAboutMyWork workRef={workRef} />
+      <MoreAboutMyself aboutMeRef={aboutMeRef} />
       <Sentance />
       <footer>
         <p className='footer-text'>@Denitsa Georgieva MMXXI </p>

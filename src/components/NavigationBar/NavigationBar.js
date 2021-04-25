@@ -1,11 +1,14 @@
 import React from 'react'
 import MenuNavBar from './MenuNavBar'
 
-const NavigationBar = () => {
+const NavigationBar = ({ scrollToWork, scrollToAboutMe }) => {
   return (
     <div>
       <div className='navigation-bar-top'>
-        <MenuNavBar />
+        <MenuNavBar
+          scrollToWork={scrollToWork}
+          scrollToAboutMe={scrollToAboutMe}
+        />
       </div>
     </div>
   )
