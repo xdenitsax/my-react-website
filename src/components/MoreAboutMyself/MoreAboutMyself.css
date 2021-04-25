@@ -5,6 +5,13 @@
 
   text-align: center;
 }
+@media screen and (max-width: 768px) {
+  .about-myself-header {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+  }
+}
 .about-myself-content {
   font-family: 'Montserrat', sans-serif;
   color: #fff1f5;
@@ -16,10 +23,83 @@
   text-align: justify;
   margin-bottom: 30px;
 }
+@media screen and (max-width: 768px) {
+  .about-myself-content {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 336px) {
+  .about-myself-content {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 236px) {
+  .about-myself-content {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 184px) {
+  .about-myself-content {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 132px) {
+  .about-myself-content {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 5px;
+  }
+}
 .whole-div-about-myself {
   background-color: #1c3852;
   height: 850px;
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .whole-div-about-myself {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 336px) {
+  .whole-div-about-myself {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 236px) {
+  .whole-div-about-myself {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 184px) {
+  .whole-div-about-myself {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 6px;
+  }
+}
+@media screen and (max-width: 132px) {
+  .whole-div-about-myself {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 5px;
+  }
 }
