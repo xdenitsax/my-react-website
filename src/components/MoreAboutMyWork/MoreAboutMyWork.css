@@ -67,15 +67,38 @@
   margin-right: 10%;
   margin-bottom: 100px;
 }
+@media screen and (max-width: 864px) {
+  .whole-div-about-me {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 13px;
+    height: 1100px;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .whole-div-about-me {
     margin-left: 10%;
     margin-right: 10%;
     font-size: 13px;
+    height: 850px;
   }
 }
-
+@media screen and (max-width: 490px) {
+  .whole-div-about-me {
+    height: 900px;
+  }
+}
+@media screen and (max-width: 440px) {
+  .whole-div-about-me {
+    height: 1000px;
+  }
+}
+@media screen and (max-width: 388px) {
+  .whole-div-about-me {
+    height: 1200px;
+  }
+}
 @media screen and (max-width: 336px) {
   .whole-div-about-me {
     margin-left: 10%;

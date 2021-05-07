@@ -39,9 +39,7 @@ const Sentence = () => {
   return (
     <div>
       <p className='sentance-bottom'>
-        Have {randomWord}
-        {''}
-        {dayOfTheWeek()}!
+        Have {randomWord} {dayOfTheWeek()}!
       </p>
     </div>
   )

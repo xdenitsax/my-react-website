@@ -1,0 +1,194 @@
+li {
+  display: block;
+}
+
+section {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.skills-ul {
+  padding: 0 0 0 20px;
+  min-width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (max-width: 570px) {
+  .skills-ul {
+    min-width: 40px;
+  }
+}
+
+.skills-li {
+  margin-bottom: 5px;
+  font-family: 'Montserrat', sans-serif;
+  color: #0d1a26;
+  font-size: 12px;
+  text-align: left;
+}
+
+.section-content {
+  padding-top: 2rem;
+}
+
+.space-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sub-section {
+  border: 1px solid var(--subtitle-color);
+  border-radius: var(--radius);
+  padding: 15px 10px;
+  position: relative;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 570px) {
+  .sub-section {
+    padding: 5px 2px;
+    position: relative;
+    margin-bottom: 10px;
+  }
+}
+
+.sub-section h3 {
+  z-index: 10;
+  margin: 0;
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  color: #0d1a26;
+  font-size: 18px;
+  text-align: center;
+  top: -19px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 570px) {
+  .sub-section h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #0d1a26;
+    font-size: 12px;
+    text-align: center;
+    top: -10px;
+    left: 10%;
+    transform: translateX(-10%);
+    text-align: center;
+    padding: 0 3px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 440px) {
+  .sub-section h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #0d1a26;
+    font-size: 10px;
+    text-align: center;
+    top: -10px;
+    left: 10%;
+    transform: translateX(-10%);
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
+.section {
+  margin-top: 3rem;
+}
+
+.section-title {
+  font-family: 'Montserrat', sans-serif;
+  color: #0d1a26;
+  font-size: 23px;
+  text-align: center;
+  padding: 80px;
+}
+@media screen and (max-width: 1300px) {
+  .section-title {
+    padding: 40px;
+  }
+}
+@media screen and (max-width: 1005px) {
+  .section-title {
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 910px) {
+  .section-title {
+    padding: 0;
+  }
+}
+.bubbling-container {
+  margin: 5px;
+}
+
+/* SKILLS ANIMATION */
+.bubbling-icons {
+  box-shadow: inset 2px 2px 5px -1px grey;
+  border-radius: 60px;
+  width: 70px;
+  height: 70px;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1);
+  background-size: 70px 210px;
+}
+@media screen and (max-width: 570px) {
+  .bubbling-icons {
+    box-shadow: inset 9px 2px 7px -1px grey;
+    border-radius: 40px;
+
+    width: 37px;
+    height: 37px;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1);
+    background-size: 40px 104px;
+  }
+}
+.languages {
+  animation-name: bubbling;
+  background-image: url('./skills/language-icons.svg');
+}
+.tools {
+  animation-name: bubbling;
+  animation-delay: 1s;
+  background-image: url('./skills/tools-icons.svg');
+}
+
+.flex-wide {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+@keyframes bubbling {
+  0% {
+    background-position: 0 0;
+  }
+  5% {
+    background-position: 0 70px;
+  }
+  35% {
+    background-position: 0 70px;
+  }
+  40% {
+    background-position: 0 140px;
+  }
+  68% {
+    background-position: 0 140px;
+  }
+  73% {
+    background-position: 0 210px;
+  }
+  100% {
+    background-position: 0 210px;
+  }
+}

@@ -5,6 +5,7 @@ import MoreAboutMyself from './components/MoreAboutMyself/MoreAboutMyself'
 import MenuNavBar from './components/MenuNavBar/MenuNavBar'
 import Projects from './components/Projects/Projects'
 import Sentence from './components/Sentence/Sentence'
+
 const App = () => {
   const workRef = createRef()
   const aboutMeRef = createRef()
@@ -28,10 +29,8 @@ const App = () => {
         <span className='name-first-part'>Hi, my name is</span>
         <span className='name-second-part-name'>Denitsa Georgieva.</span>
         <span className='text-introdiction'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-          mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-          voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-          fugiat iusto fuga praesentium optio, eaque rerum!
+          , a front-end software engineer based in Boulder, CO with a passion
+          for building captivating interfaces for mobile and desktop devices.
         </span>
       </div>
       <MoreAboutMyWork workRef={workRef} />

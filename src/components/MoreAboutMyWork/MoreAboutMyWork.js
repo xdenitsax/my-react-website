@@ -1,6 +1,6 @@
 import React from 'react'
 import './MoreAboutMyWork.css'
-
+import Skills from '../SkilsComponents/Skills'
 const MoreAboutMyWork = ({ workRef }) => {
   return (
     <div>
@@ -28,6 +28,7 @@ const MoreAboutMyWork = ({ workRef }) => {
             quis varius quam quisque. Vel turpis nunc eget lorem dolor sed
             viverra ipsum nunc. Mus mauris vitae ultricies leo.
           </p>
+          <Skills />
         </div>
       </div>
     </div>
