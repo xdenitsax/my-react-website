@@ -29,7 +29,7 @@ const App = () => {
         <span className='name-first-part'>Hi, my name is</span>
         <span className='name-second-part-name'>Denitsa Georgieva.</span>
         <span className='text-introdiction'>
-          , a front-end software engineer based in Boulder, CO with a passion
+          I`m a front-end software engineer based in Boulder, CO with a passion
           for building captivating interfaces for mobile and desktop devices.
         </span>
       </div>

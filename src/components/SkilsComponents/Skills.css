@@ -44,8 +44,6 @@ section {
 }
 
 .sub-section {
-  border: 1px solid var(--subtitle-color);
-  border-radius: var(--radius);
   padding: 15px 10px;
   position: relative;
   margin-bottom: 30px;
