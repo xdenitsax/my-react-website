@@ -1,0 +1,152 @@
+.skills-header {
+  font-family: 'Montserrat', sans-serif;
+  color: #1c3852;
+  font-size: 30px;
+  margin-top: 130px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .skills-header {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+}
+.languages-content {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff1f5;
+  font-size: 18px;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 40px;
+  padding-top: 80px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 1186px) {
+  .languages-content {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .languages-content {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .languages-content {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 940px) {
+  .languages-content {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .languages-content {
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 790px) {
+  .languages-content {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+@media screen and (max-width: 740px) {
+  .languages-content {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .languages-content {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .languages-content {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 9px;
+  }
+}
+@media screen and (max-width: 461px) {
+  .languages-content {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .languages-content {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+.whole-div-skills {
+  background-color: #1c3852;
+  height: 800px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 100px;
+  border-radius: 30px;
+}
+@media screen and (max-width: 1420px) {
+  .whole-div-skills {
+    height: 700px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .whole-div-skills {
+    height: 580px;
+  }
+}
+
+@media screen and (max-width: 845px) {
+  .whole-div-skills {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 655px) {
+  .whole-div-skills {
+    height: 430px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .whole-div-skills {
+    height: 410px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .whole-div-skills {
+    height: 380px;
+  }
+}
+@media screen and (max-width: 461px) {
+  .whole-div-skills {
+    height: 360px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .whole-div-skills {
+    height: 340px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .whole-div-skills {
+    height: 320px;
+  }
+}
+@media screen and (max-width: 250px) {
+  .whole-div-skills {
+    height: 600px;
+  }
+}
+/*        IMAGES       */

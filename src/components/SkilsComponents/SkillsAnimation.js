@@ -1,7 +1,7 @@
 import React from 'react'
-import './Skills.css'
+import './SkillsAnimation.css'
 
-const Skills = () => {
+const SkillsAnimation = () => {
   return (
     <div className='whole-skills-div'>
       {/* <div className='bubbling-icons tools'></div>
@@ -41,4 +41,4 @@ const Skills = () => {
   )
 }
 
-export default Skills
+export default SkillsAnimation

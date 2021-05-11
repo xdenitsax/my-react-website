@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import './MenuNavBar.css'
 
 const MenuNavBar = ({
-  scrollToWork,
   scrollToAboutMe,
+  scrollToScills,
   scrollToProjects,
   scrollToHome,
 }) => {
@@ -27,12 +27,13 @@ const MenuNavBar = ({
             <li className='css-link' onClick={scrollToHome}>
               HOME{' '}
             </li>
-            <li className='css-link' onClick={scrollToWork}>
-              WORK
-            </li>
             <li className='css-link' onClick={scrollToAboutMe}>
               ABOUT
             </li>
+            <li className='css-link' onClick={scrollToScills}>
+              SKILLS
+            </li>
+
             <li className='css-link' onClick={scrollToProjects}>
               PROJECTS{' '}
             </li>

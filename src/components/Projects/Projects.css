@@ -1,0 +1,16 @@
+.projects-header {
+  font-family: 'Montserrat', sans-serif;
+  color: #1c3852;
+  font-size: 30px;
+  margin-top: 130px;
+  text-align: center;
+}
+.whole-div-projects {
+  background-color: #1c3852;
+  height: 800px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 100px;
+  display: flex;
+  border-radius: 30px;
+}
