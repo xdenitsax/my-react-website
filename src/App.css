@@ -38,9 +38,42 @@
   }
 }
 
+.list-footer {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
 .footer-text {
   font-family: 'Montserrat', sans-serif;
   color: #fdf3f6;
-  font-size: 10px;
+  font-size: 8px;
   text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.github-footer,
+.in-footer {
+  height: 15px;
+  position: relative;
+  text-align: center;
+  align-items: center;
+}
+.in-footer {
+  margin-left: 10px;
+}
+.in-footer:hover {
+  padding: 5px;
+  background-color: #0e76a8;
+  transition: all 0.5s ease;
+}
+.github-footer:hover {
+  padding: 5px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.153);
+  transition: all 0.5s ease;
 }
