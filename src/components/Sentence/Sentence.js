@@ -34,7 +34,7 @@ const Sentence = () => {
   const timeOutWord = setTimeout(() => {
     const word = words[Math.floor(Math.random() * words.length)]
     setRandomWord(word)
-  }, 2000)
+  }, 1500)
 
   return (
     <div>

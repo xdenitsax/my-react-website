@@ -25,7 +25,7 @@
   }
 }
 
-@media screen and (max-width: 705px) {
+@media screen and (max-width: 720px) {
   .about-myself-content {
     font-size: 13px;
   }
@@ -51,7 +51,7 @@
   justify-content: space-around;
   flex-wrap: wrap;
   margin-bottom: 30px;
-  box-shadow: 1px 0px 8px white;
+  box-shadow: 1px 0px 8px #4685c1cd;
 }
 /* @media screen and (max-width: 1315px) {
   .whole-div-about-myself {
@@ -63,7 +63,7 @@
   border-radius: 30px;
   height: 350px;
   margin: 50px 20px 20px;
-  box-shadow: 10px 0px 80px white;
+  box-shadow: 0px 0px 20px #529de4ad;
 }
 @media screen and (max-width: 1442px) {
   .denitsa-img {
