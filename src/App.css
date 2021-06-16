@@ -1,64 +1,23 @@
-.name-first-part {
-  font-family: 'Montserrat', sans-serif;
-  color: #fdf3f6;
-  font-size: 20px;
-  text-align: left;
-  margin-left: 5%;
-  margin-top: 130px;
-}
-
-.name-second-part-name {
-  font-family: 'Montserrat', sans-serif;
-  color: #1c3852;
-  font-size: 35px;
-  text-align: left;
-  padding-top: 0;
-  margin-left: 10px;
-}
-
-.text-introdiction {
-  font-family: 'Montserrat', sans-serif;
-  color: #fdf3f6;
-  font-size: 20px;
-  text-align: left;
-  margin-top: 130px;
-}
-
-.text-begining-website {
-  margin-top: 350px;
-  margin-bottom: 500px;
-  margin-left: 100px;
-  margin-right: 55%;
-}
-
-@media screen and (max-width: 768px) {
-  .text-begining-website {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-}
-
 .list-footer {
   align-items: center;
   justify-content: center;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-bottom: 0;
-  padding-bottom: 0;
+  padding: 10px;
+  background-color: #5584b1;
 }
 .footer-text {
   font-family: 'Montserrat', sans-serif;
-  color: #fdf3f6;
-  font-size: 8px;
+  color: #254e7b;
+  font-size: 11px;
+  margin-top: 10px;
   text-align: center;
-  margin: 0;
-  padding: 0;
 }
 
 .github-footer,
 .in-footer {
-  height: 15px;
+  height: 35px;
   position: relative;
   text-align: center;
   align-items: center;
@@ -66,14 +25,7 @@
 .in-footer {
   margin-left: 10px;
 }
-.in-footer:hover {
-  padding: 5px;
-  background-color: #0e76a8;
-  transition: all 0.5s ease;
-}
-.github-footer:hover {
-  padding: 5px;
-  border-radius: 20px;
-  background-color: rgba(255, 255, 255, 0.153);
-  transition: all 0.5s ease;
+
+li::marker {
+  color: #5584b1;
 }

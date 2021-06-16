@@ -5,11 +5,6 @@ const MoreAboutMyself = ({ aboutMeRef }) => {
     <div ref={aboutMeRef}>
       <h1 className='about-myself-header'>About me.</h1>
       <div className='whole-div-about-myself'>
-        <img
-          src='images/Denitsa.jpg'
-          alt='Denitsa'
-          className='denitsa-img'
-        ></img>
         <p className='about-myself-content'>
           Hello! I`m Denitsa Georgieva, A Software Engeneer living in Boulder,
           CO. After studing with a law in university, I ve tried to develop my

@@ -1,13 +1,14 @@
 .projects-header {
   font-family: 'Montserrat', sans-serif;
-  color: #1c3852;
+  color: #5584b1;
   font-size: 30px;
   margin-top: 130px;
   text-align: center;
+  margin-bottom: 40px;
 }
 .whole-div-projects {
-  background-color: #1c3852;
-  height: 800px;
+  background-color: #bacbd26e;
+  height: 550px;
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 100px;
@@ -15,14 +16,30 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 1px 0px 8px #4685c1cd;
+  box-shadow: 15px 10px 40px #596a7176;
 }
 .expense-mac {
-  height: 500px;
+  height: 450px;
 }
 
 @media screen and (max-width: 1000px) {
   .expense-mac {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .expense-mac {
     height: 300px;
+  }
+}
+@media screen and (max-width: 574px) {
+  .expense-mac {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 378px) {
+  .expense-mac {
+    height: 180px;
   }
 }
