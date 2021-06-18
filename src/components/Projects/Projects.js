@@ -1,17 +1,16 @@
 import React from 'react'
 import './Projects.css'
 
-const Projects = ({ projectsRef }) => {
+const Projects = () => {
   return (
-    <div ref={projectsRef}>
-      <h1 className='projects-header'>Projects</h1>
-      <div className='whole-div-projects'>
-        <img
-          src='images/Projects.png'
-          alt='expense-mac-picture'
-          className='expense-mac'
-        />
-      </div>
+    <div className='projects-div'>
+      <h1 className='projects-header'>Some Things I’ve Built</h1>
+      <ul>
+        <li className='li-expense-tracker'>
+          <img src='images/expense-tracker.png' className='expense-tracker' />
+          <h1 className='project-name'>Expense Tracker</h1>
+        </li>
+      </ul>
     </div>
   )
 }

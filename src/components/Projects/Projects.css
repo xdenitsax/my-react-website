@@ -1,4 +1,4 @@
-.projects-header {
+/* .projects-header {
   font-family: 'Montserrat', sans-serif;
   color: #5584b1;
   font-size: 30px;
@@ -9,37 +9,57 @@
 .whole-div-projects {
   background-color: #bacbd26e;
   height: 550px;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-bottom: 100px;
-  border-radius: 30px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
   box-shadow: 15px 10px 40px #596a7176;
 }
-.expense-mac {
-  height: 450px;
+
+.expense-tracker-div {
+}
+.expense-tracker {
+  height: 250px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border: 3px solid #5584b1;
+} */
+.projects-div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 100px 10px 200px 80px;
+  padding: 100px 0;
+}
+.projects-header {
+  font-family: 'Roboto Mono', monospace;
+  text-align: left;
+  color: #ffa500;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.projects-header::before,
+.projects-header::after {
+  content: ' ';
+  margin: 0 10px 10px 10px;
+  display: inline-block;
+  border: 1px solid #ffa500;
+  width: 50px;
+}
+.project-name {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffa500;
+  font-size: 30px;
+  text-align: center;
 }
 
-@media screen and (max-width: 1000px) {
-  .expense-mac {
-    height: 400px;
-  }
+.expense-tracker {
+  height: 300px;
 }
-
-@media screen and (max-width: 768px) {
-  .expense-mac {
-    height: 300px;
-  }
-}
-@media screen and (max-width: 574px) {
-  .expense-mac {
-    height: 200px;
-  }
-}
-@media screen and (max-width: 378px) {
-  .expense-mac {
-    height: 180px;
-  }
+.explanation-expense-tracker {
+  background-color: #ffa500;
+  height: 400px;
 }

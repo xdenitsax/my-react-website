@@ -4,16 +4,20 @@ import MoreAboutMyself from './components/MoreAboutMyself/MoreAboutMyself'
 import Projects from './components/Projects/Projects'
 import Sentence from './components/Sentence/Sentence'
 import MainPage from './components/MainPage/MainPage'
+import Lines from './components/Lines/Lines'
+import NavBar from './components/NavBar/NavBar'
 
 const App = () => {
   return (
     <>
+      <NavBar />
+      <Lines />
       <MainPage />
       <MoreAboutMyself />
       <Skills />
       <Projects />
       <Sentence />
-      <footer>
+      {/* <footer>
         <ul className='list-footer'>
           <li>
             <a href='https://github.com/xdenitsax'>
@@ -35,7 +39,7 @@ const App = () => {
           </li>
         </ul>
         <p className='footer-text'>@Denitsa Georgieva MMXXI </p>
-      </footer>
+      </footer> */}
     </>
   )
 }

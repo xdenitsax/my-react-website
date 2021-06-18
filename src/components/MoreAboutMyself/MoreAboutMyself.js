@@ -1,15 +1,16 @@
 import React from 'react'
 import './MoreAboutMyself.css'
-const MoreAboutMyself = ({ aboutMeRef }) => {
+const MoreAboutMyself = () => {
   return (
-    <div ref={aboutMeRef}>
-      <h1 className='about-myself-header'>About me.</h1>
-      <div className='whole-div-about-myself'>
-        <p className='about-myself-content'>
-          Hello! I`m Denitsa Georgieva, A Software Engeneer living in Boulder,
-          CO. After studing with a law in university, I ve tried to develop my
-          attorney carrer in Bulgaria when i realized that although I still had
-          a love for studing and develop myself to somtehning new and really
+    <>
+      <div className='about-me-div'>
+        <div className='about-myself-content'>
+          <h1 className='about-myself-header'>About me</h1>
+          Hello! My name is Denitsa Georgieva and I enjoy creating things that
+          live on the internet. My interest in a Software Engeneer started back
+          in 2017. After studing with a law in university, I ve tried to develop
+          my attorney carrer in Bulgaria when i realized that although I still
+          had a love for studing and develop myself to somtehning new and really
           interesting for me. After dabbling with some introductory JavaScript
           courses on the internet and exploring programming through
           self-teaching, I decided to take a leap of faith and made a switch in
@@ -22,9 +23,10 @@ const MoreAboutMyself = ({ aboutMeRef }) => {
           dev, tech, sports, karate, cooking, or how I can be of help to your
           team or business! I'd love to get to know more developers and expand
           my network. I also know a thing or two about beer.
-        </p>
+        </div>
+        <img src='images/Denitsa.png' alt='Denitsa' className='Denitsa-photo' />
       </div>
-    </div>
+    </>
   )
 }
 

@@ -1,0 +1,46 @@
+.lines {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.line-left {
+  orientation: left;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  margin-left: 10px;
+}
+
+.line-left:after {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 50px;
+  margin: 0px auto;
+  background-color: #495670;
+}
+
+.icons {
+  color: #495670;
+  font-size: 40px;
+}
+.icons:hover {
+  color: #ffa500;
+  border: 1px dotted #ffa500;
+}
+.second-icon {
+  margin-bottom: 5px;
+}
+.email {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  margin-left: 13px;
+  margin-bottom: 5px;
+  color: #495670;
+  list-style-type: none;
+}
+.email:hover {
+  color: #ffa500;
+}

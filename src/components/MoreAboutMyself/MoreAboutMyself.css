@@ -1,44 +1,59 @@
-.about-myself-header {
-  font-family: 'Montserrat', sans-serif;
-  color: #5584b1;
-  font-size: 30px;
-  margin-bottom: 40px;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.about-myself-content {
-  font-family: 'Montserrat', sans-serif;
-  color: #193858;
-  font-size: 16px;
-  height: 300px;
-  width: 750px;
-  margin-top: 100px;
-  text-align: justify;
-  align-items: center;
-  display: flex;
-  padding: 0 10px;
-  flex-wrap: wrap;
-}
-
-@media screen and (max-width: 450px) {
-  .about-myself-content {
-    font-size: 13px;
-  }
-}
-.whole-div-about-myself {
-  border-radius: 30px;
-  margin-left: 10%;
-  margin-right: 10%;
-  background-color: #bacbd26e;
-  height: 650px;
+.about-me-div {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-bottom: 30px;
-  box-shadow: 15px 10px 40px #596a7176;
+  margin: 30px 50px 0px 20px;
+  padding: 100px 0 200px 0;
+}
+@media screen and (max-width: 1200px) {
+  .about-me-div {
+    justify-content: center;
+  }
+}
+
+.about-myself-header {
+  font-family: 'Roboto Mono', monospace;
+  text-align: left;
+  color: #ffa500;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.about-myself-header::before,
+.about-myself-header::after {
+  content: ' ';
+  margin: 0 10px 10px 10px;
+  display: inline-block;
+  border: 1px solid #ffa500;
+  width: 50px;
+}
+
+.about-myself-content {
+  font-family: 'Montserrat', sans-serif;
+  color: #8892b0;
+  font-size: 16px;
+  width: 70%;
+  margin-left: 30px;
+  text-align: justify;
+}
+@media screen and (max-width: 550px) {
+  .about-myself-content {
+    width: 100%;
+    font-size: 14px;
+  }
+}
+
+.Denitsa-photo {
+  height: 300px;
+  justify-content: center;
+  padding: 3px;
+  margin-top: 20px;
+  box-shadow: 25px 20px 9px #ffa500;
+}
+
+@media screen and (max-width: 550px) {
+  .Denitsa-photo {
+    height: 200px;
+    margin-left: 20px;
+  }
 }

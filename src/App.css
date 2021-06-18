@@ -5,7 +5,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   padding: 10px;
-  background-color: #5584b1;
+  background-color: #112240;
 }
 .footer-text {
   font-family: 'Montserrat', sans-serif;
@@ -27,5 +27,5 @@
 }
 
 li::marker {
-  color: #5584b1;
+  color: #112240;
 }
