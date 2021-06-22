@@ -36,10 +36,11 @@
 .email {
   writing-mode: vertical-rl;
   text-orientation: mixed;
-  margin-left: 13px;
+  margin-left: 11px;
   margin-bottom: 5px;
   color: #495670;
   list-style-type: none;
+  font-family: 'Montserrat', sans-serif;
 }
 .email:hover {
   color: #ffa500;

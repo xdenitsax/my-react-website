@@ -32,6 +32,7 @@ const Sentence = () => {
     'a tip-top',
   ]
   const timeOutWord = setTimeout(() => {
+    console.log(timeOutWord)
     const word = words[Math.floor(Math.random() * words.length)]
     setRandomWord(word)
   }, 1500)
@@ -39,7 +40,7 @@ const Sentence = () => {
   return (
     <div>
       <p className='sentance-bottom'>
-        Have {randomWord} {dayOfTheWeek()}!
+        Have {randomWord} {dayOfTheWeek()} !
       </p>
     </div>
   )

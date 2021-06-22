@@ -22,22 +22,52 @@ const Skills = () => {
           <div className='icons-div'>
             <ul>
               <li className='skills'>
-                <AiFillHtml5 className='one-skill' />
-                <DiCss3 className='one-skill' />
-                <FaSass className='one-skill' />
-                <SiStyledComponents className='one-skill' />
+                <a
+                  href='https://developer.mozilla.org/en-US/docs/Web/HTML'
+                  className='a-skill'
+                >
+                  <AiFillHtml5 className='one-skill' />
+                </a>
+                <a
+                  href='https://developer.mozilla.org/en-US/docs/Web/CSS'
+                  className='a-skill'
+                >
+                  <DiCss3 className='one-skill' />
+                </a>
+                <a href='https://sass-lang.com/' className='a-skill'>
+                  <FaSass className='one-skill' />
+                </a>
+                <a href='https://styled-components.com/' className='a-skill'>
+                  <SiStyledComponents className='one-skill' />
+                </a>
               </li>
               <li className='skills'>
-                <SiJavascript className='one-skill' />
-                <SiNodeDotJs className='one-skill' />
-                <SiReact className='one-skill' />
-                <SiRedux className='one-skill' />
+                <a href='https://www.javascript.com/' className='a-skill'>
+                  <SiJavascript className='one-skill' />
+                </a>
+                <a href='https://nodejs.org/en/' className='a-skill'>
+                  <SiNodeDotJs className='one-skill' />
+                </a>
+                <a href='https://reactjs.org/' className='a-skill'>
+                  <SiReact className='one-skill' />
+                </a>
+                <a href='https://redux.js.org/' className='a-skill'>
+                  <SiRedux className='one-skill' />
+                </a>
               </li>
               <li className='skills'>
-                <SiMongodb className='one-skill' />
-                <FaAws className='one-skill' />
-                <FaGithub className='one-skill' />
-                <FaGitkraken className='one-skill' />
+                <a href='https://www.mongodb.com/' className='a-skill'>
+                  <SiMongodb className='one-skill' />
+                </a>
+                <a href='https://aws.amazon.com/' className='a-skill'>
+                  <FaAws className='one-skill' />
+                </a>
+                <a href='https://github.com/' className='a-skill'>
+                  <FaGithub className='one-skill' />
+                </a>
+                <a href='https://www.gitkraken.com/' className='a-skill'>
+                  <FaGitkraken className='one-skill' />
+                </a>
               </li>
             </ul>
           </div>

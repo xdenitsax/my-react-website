@@ -1,31 +1,13 @@
-.list-footer {
+footer {
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
-  padding: 10px;
-  background-color: #112240;
 }
 .footer-text {
   font-family: 'Montserrat', sans-serif;
   color: #254e7b;
-  font-size: 11px;
   margin-top: 10px;
-  text-align: center;
-}
-
-.github-footer,
-.in-footer {
-  height: 35px;
-  position: relative;
-  text-align: center;
-  align-items: center;
-}
-.in-footer {
-  margin-left: 10px;
-}
-
-li::marker {
-  color: #112240;
+  font-size: 9px;
 }

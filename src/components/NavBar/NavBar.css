@@ -1,10 +1,10 @@
 nav {
   height: 80px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   flex-direction: row;
 }
-.navigation-letter {
+/* .navigation-letter {
   font-family: 'Roboto Mono', monospace;
   color: #233554;
   font-size: 56px;
@@ -13,9 +13,12 @@ nav {
   margin: 7px 5px;
   color: #495670;
 }
+.a-nav {
+  color: #495670;
+}
 .navigation-letter:hover {
   color: #ffa500;
-}
+} */
 
 .resume {
   height: 50px;

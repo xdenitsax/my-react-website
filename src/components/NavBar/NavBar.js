@@ -5,10 +5,11 @@ const NavBar = () => {
   return (
     <>
       <nav>
-        <h1 className='navigation-letter'>
-          {' '}
-          <FaLaptopCode />
-        </h1>
+        {/* <h1 className='navigation-letter'>
+          <a href='https://denitsa.co/' className='a-nav'>
+            <FaLaptopCode />
+          </a>
+        </h1> */}
         <button className='resume'>Resume</button>
       </nav>
     </>
