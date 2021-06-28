@@ -28,11 +28,12 @@ const Projects = () => {
         <div className='project-post-info'>
           <h1 className='project-post-title'>Expense Tracker </h1>
           <p className='project-post-text'>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-            itaque, totam sapiente impedit odit quisquam pariatur doloribus, hic
-            porro dolor earum nemo deleniti alias, quam eligendi ipsam sit
-            quaerat debitis ut iure veritatis rem accusamus. Hic dolor nisi
-            ratione voluptatibus!
+            Built with React, Redux and NodeJS. The app uses its own back end
+            with RESTful API and has authentication and authorization
+            functionality. The front end uses redux-thunks for asynchronous CRUD
+            operations and react-router-dom for navigation. I created UI/UX
+            design and used CSS flexbox to create responsive layout for
+            different sized screens.
           </p>
           <div className='usedTehnologies-div'>
             <p className='tehnologies-text'>Used tehnologies:</p>
@@ -65,11 +66,9 @@ const Projects = () => {
         <div className='project-post-info-2'>
           <h1 className='project-post-title-2'>Real Estate Website </h1>
           <p className='project-post-text-2'>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-            itaque, totam sapiente impedit odit quisquam pariatur doloribus, hic
-            porro dolor earum nemo deleniti alias, quam eligendi ipsam sit
-            quaerat debitis ut iure veritatis rem accusamus. Hic dolor nisi
-            ratione voluptatibus!
+            Real-estate website built with React. Used Framer Motion for
+            animations and styled-components to style the UI. For the project I
+            followed responsive design principles – “mobile first”.
           </p>
           <div className='usedTehnologies-div'>
             <p className='tehnologies-text'>Used tehnologies:</p>
@@ -102,11 +101,9 @@ const Projects = () => {
         <div className='project-post-info-3'>
           <h1 className='project-post-title-3'>Video Tube</h1>
           <p className='project-post-text-3'>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-            itaque, totam sapiente impedit odit quisquam pariatur doloribus, hic
-            porro dolor earum nemo deleniti alias, quam eligendi ipsam sit
-            quaerat debitis ut iure veritatis rem accusamus. Hic dolor nisi
-            ratione voluptatibus!
+            A YouTube clone built with React. It uses YouTube’s public RESTful
+            API endpoints to search and show the search results from the API
+            response. Uses Semantic UI for styling the app’s interface.
           </p>
           <div className='usedTehnologies-div'>
             <p className='tehnologies-text'>Used tehnologies:</p>
