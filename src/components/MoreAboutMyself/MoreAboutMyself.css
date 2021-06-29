@@ -37,19 +37,26 @@
   box-shadow: 25px 20px 9px #ffa500;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 500px) {
   .about-me-div {
-    justify-content: center;
+    width: 100%;
+    margin-left: 0px;
+  }
+  .about-myself-header {
+    font-size: 25px;
+  }
+  .Denitsa-photo {
+    height: 200px;
+    margin-left: 40px;
   }
 }
 
-@media screen and (max-width: 550px) {
-  .Denitsa-photo {
-    height: 200px;
-    margin-left: 20px;
+@media screen and (max-width: 375px) {
+  .about-me-div {
+    margin-left: 30px;
   }
-  .about-myself-content {
-    width: 100%;
-    font-size: 14px;
+  .about-myself-header::before,
+  .about-myself-header::after {
+    width: 30px;
   }
 }

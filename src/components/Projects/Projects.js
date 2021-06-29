@@ -17,7 +17,7 @@ const Projects = () => {
       <h1 className='projects-header'>Some Things I’ve Built</h1>
       <div className='project-post'>
         <div className='project-post-image'>
-          <a href='https://github.com/xdenitsax'>
+          <a href='https://expense-tracker.denitsa.co/welcome'>
             <img
               src='images/expense-tracker.png'
               alt='expense-tracker'
@@ -48,14 +48,17 @@ const Projects = () => {
               <SiGitkraken className='tehn-icon' />
             </span>
           </div>
-          <a href='https://github.com/xdenitsax' className='project-post-link'>
+          <a
+            href='https://expense-tracker.denitsa.co/welcome'
+            className='project-post-link'
+          >
             Visit the Project
           </a>
         </div>
       </div>
       <div className='project-post-2'>
         <div className='project-post-image-2'>
-          <a href='https://github.com/xdenitsax'>
+          <a href='https://century22.denitsa.co/'>
             <img
               src='images/real-estate.png'
               alt='real-estate'
@@ -81,7 +84,7 @@ const Projects = () => {
             </span>
           </div>
           <a
-            href='https://github.com/xdenitsax'
+            href='https://century22.denitsa.co/'
             className='project-post-link-2'
           >
             Visit the Project

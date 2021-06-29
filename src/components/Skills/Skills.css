@@ -75,6 +75,9 @@ li {
   .skills {
     font-size: 30px;
   }
+  .skills-div {
+    margin-left: 30px;
+  }
   .skills-header {
     font-size: 18px;
   }
@@ -90,5 +93,8 @@ li {
   }
   .skills-header {
     font-size: 15px;
+  }
+  .skills-div {
+    margin-left: 60px;
   }
 }

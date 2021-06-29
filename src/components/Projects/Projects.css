@@ -175,6 +175,9 @@ a {
 }
 
 @media screen and (max-width: 600px) {
+  .projects-body {
+    margin-left: 20px;
+  }
   .expense-tracker-img,
   .real-estate-img,
   .video-tube-img {
@@ -189,6 +192,7 @@ a {
     margin: 0 5px 5px 5px;
     width: 30px;
   }
+
   .project-post-title,
   .project-post-title-2,
   .project-post-title-3 {
@@ -226,6 +230,9 @@ a {
   }
 }
 @media screen and (max-width: 370px) {
+  .projects-body {
+    margin-left: 40px;
+  }
   .projects-header {
     margin-left: 10px;
   }

@@ -59,3 +59,19 @@
     width: 90%;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .introduction-1 {
+    font-size: 20px;
+  }
+  .introduction-2 {
+    font-size: 46px;
+  }
+  .introduction-3 {
+    font-size: 36px;
+  }
+  .introduction-4 {
+    font-size: 20px;
+    width: 300px;
+  }
+}
