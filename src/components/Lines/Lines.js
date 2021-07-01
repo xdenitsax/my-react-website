@@ -12,7 +12,7 @@ const Lines = () => {
             </a>
           </li>
           <li>
-            <a href='https://www.linkedin.com/in/denitsa-georgieva-a56716149/'>
+            <a href='https://www.linkedin.com/in/denitsageorgieva'>
               <AiFillLinkedin className='icons second-icon' />
             </a>
           </li>
