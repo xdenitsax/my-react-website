@@ -8,7 +8,7 @@ const MoreAboutMyself = () => {
           <h1 className='about-myself-header'>About me</h1>
           Hello! My name is Denitsa Georgieva and I enjoy creating things that
           live on the internet. My interest in a Software Engeneer started back
-          in 2017. After studing with a law in university, I ve tried to develop
+          in 2019. After studing with a law in university, I ve tried to develop
           my attorney carrer in Bulgaria when i realized that although I still
           had a love for studing and develop myself to somtehning new and really
           interesting for me. After dabbling with some introductory JavaScript
@@ -22,7 +22,7 @@ const MoreAboutMyself = () => {
           new boundaries. Feel free to connect with me! Let's talk about web
           dev, tech, sports, karate, cooking, or how I can be of help to your
           team or business! I'd love to get to know more developers and expand
-          my network. I also know a thing or two about beer.
+          my network.
         </div>
         <img src='images/Denitsa.png' alt='Denitsa' className='Denitsa-photo' />
       </div>
