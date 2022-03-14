@@ -6,13 +6,8 @@ footer {
   flex-wrap: wrap;
 }
 .footer-text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #254e7b;
   margin-top: 10px;
   font-size: 9px;
-}
-@media screen and (max-width: 425px) {
-  .footer-text {
-    margin-left: 40px;
-  }
 }
