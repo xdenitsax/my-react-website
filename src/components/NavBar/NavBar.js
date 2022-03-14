@@ -6,7 +6,11 @@ const NavBar = () => {
     <>
       <nav>
         <button className='resume'>
-          <a className='resume-link' href='DenitsaGeorgievaResume2022.pdf'>
+          <a
+            className='resume-link'
+            href='./DenitsaGeorgievaResume2022.pdf'
+            download
+          >
             Resume
           </a>
         </button>
