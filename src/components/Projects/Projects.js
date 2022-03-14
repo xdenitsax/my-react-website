@@ -1,62 +1,71 @@
-import React from 'react'
-import './Projects.css'
-import { DiReact, DiCss3, DiJavascript1 } from 'react-icons/di'
-import {
-  SiRedux,
-  SiMongodb,
-  SiStyledComponents,
-  SiGitkraken,
-} from 'react-icons/si'
-import { GrNode } from 'react-icons/gr'
-import { FiGithub } from 'react-icons/fi'
-import { FaAws } from 'react-icons/fa'
+import React from "react";
+import "./Projects.css";
 
 const Projects = () => {
   return (
     <div className='projects-body'>
-      <h1 className='projects-header'>Some Things I’ve Built</h1>
+      <h1 className='projects-header'>Experience</h1>
       <div className='project-post'>
-        <div className='project-post-image'>
-          <a href='https://expense-tracker.denitsa.co/welcome'>
-            <img
-              src='images/expense-tracker.png'
-              alt='expense-tracker'
-              className='expense-tracker-img'
-            />
-          </a>
-        </div>
-        <div className='project-post-info'>
-          <h1 className='project-post-title'>Expense Tracker </h1>
-          <p className='project-post-text'>
-            Built with React, Redux and NodeJS. The app uses its own back end
-            with RESTful API and has authentication and authorization
-            functionality. The front end uses redux-thunks for asynchronous CRUD
-            operations and react-router-dom for navigation. I created UI/UX
-            design and used CSS flexbox to create responsive layout for
-            different sized screens.
-          </p>
-          <div className='usedTehnologies-div'>
-            <p className='tehnologies-text'>Used tehnologies:</p>
-            <span className='tehnologies-icons'>
-              <DiCss3 className='tehn-icon' />
-              <DiJavascript1 className='tehn-icon' />
-              <DiReact className='tehn-icon' />
-              <SiRedux className='tehn-icon' /> <GrNode className='tehn-icon' />
-              <SiMongodb className='tehn-icon' />
-              <FaAws className='tehn-icon' />
-              <FiGithub className='tehn-icon' />
-              <SiGitkraken className='tehn-icon' />
-            </span>
+        <div className='project-post-title-wraper'>
+          <h1 className='project-post-title'>
+            <a href='https://www.aura.com/' className='project-post-link'>
+              Aura
+            </a>
+          </h1>
+
+          <div className='project-post-image'>
+            <a href='https://www.aura.com/'>
+              <img src='images/aura.png' alt='aura' className='aura-img' />
+            </a>
           </div>
-          <a
-            href='https://expense-tracker.denitsa.co/welcome'
-            className='project-post-link'
-          >
-            Visit the Project
-          </a>
+        </div>
+
+        <div className='project-post-title-wraper-2'>
+          <h1 className='project-post-title'>
+            <a href='https://www.bluedgeusa.com/' className='project-post-link'>
+              Bluedge USA
+            </a>
+          </h1>
+
+          <div className='project-post-image'>
+            <a href='https://www.bluedgeusa.com/'>
+              <img
+                src='images/bluedge.png'
+                alt='bluedge'
+                className='bluedge-img'
+              />
+            </a>
+          </div>
+        </div>
+        <div className='project-post-title-wraper-3'>
+          <h1 className='project-post-title'>
+            <a
+              href='https://century22.denitsa.co/'
+              className='project-post-link'
+            >
+              Real Estate
+            </a>
+          </h1>
+
+          <div className='project-post-image'>
+            <a href='https://century22.denitsa.co/'>
+              <img
+                src='images/real-estate.png'
+                alt='real-estate'
+                className='real-estate-img'
+              />
+            </a>
+          </div>
+
+          {/* <div className='project-post-info'>
+          <p className='project-post-text'>
+            Aura’s digital threat platform enables customers to manage disparate
+            cybersecurity needs with ease and maximum effectiveness..
+          </p>
+        </div>  */}
         </div>
       </div>
-      <div className='project-post-2'>
+      {/* <div className='project-post-2'>
         <div className='project-post-image-2'>
           <a href='https://century22.denitsa.co/'>
             <img
@@ -65,8 +74,8 @@ const Projects = () => {
               className='real-estate-img'
             />
           </a>
-        </div>
-        <div className='project-post-info-2'>
+        </div> */}
+      {/* <div className='project-post-info-2'>
           <h1 className='project-post-title-2'>Real Estate Website </h1>
           <p className='project-post-text-2'>
             Real-estate website built with React. Used Framer Motion for
@@ -123,10 +132,10 @@ const Projects = () => {
           >
             Visit the Project
           </a>
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
     </div>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;

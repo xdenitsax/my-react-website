@@ -1,100 +1,113 @@
 .skills-div {
+  padding-bottom: 100px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 30px 0px 0px 0px;
-  padding-bottom: 100px;
 }
 
 .skills-header {
-  font-family: 'Roboto Mono', monospace;
-  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  text-align: left;
   color: #ffa500;
   margin-bottom: 20px;
+  text-align: center;
+  font-size: 40px;
 }
 
 .skills-header::after,
 .skills-header::before {
-  content: ' ';
+  content: " ";
   margin: 0 10px 10px 10px;
   display: inline-block;
   border: 1px solid #ffa500;
   width: 50px;
 }
 
-.skills-text-content {
-  font-family: 'Montserrat', sans-serif;
+.skills-subheader {
+  font-family: "Montserrat", sans-serif;
   color: #8892b0;
-  font-size: 16px;
-  width: 70%;
-  text-align: center;
-}
-
-li {
-  list-style-type: none;
-}
-.icons-div {
+  font-size: 20px;
+  margin: 0 auto;
   text-align: center;
 }
 
 .skills {
+  list-style-type: none;
+}
+
+.icons-ul {
+  width: 600px;
+  margin: 50px auto;
+}
+.skills {
   font-size: 100px;
-  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .a-skill {
   color: #8892b0;
 }
 
-.one-skill {
-  padding-right: 60px;
-}
-
 .one-skill:hover {
   color: #ffa500;
 }
-@media screen and (max-width: 990px) {
+
+@media screen and (max-width: 860px) {
   .skills {
     font-size: 60px;
-  }
-  .one-skill {
-    padding-right: 30px;
-  }
-}
-@media screen and (max-width: 750px) {
-  .skills-header::after,
-  .skills-header::before {
-    margin: 0 10px 5px 10px;
-    width: 30px;
+    margin: 0 auto;
   }
   .skills-header {
     font-size: 25px;
   }
-}
-@media screen and (max-width: 600px) {
-  .skills {
-    font-size: 30px;
-  }
-  .skills-div {
-    margin-left: 30px;
+  .icons-ul {
+    width: 400px;
   }
   .skills-header {
-    font-size: 18px;
+    font-size: 30px;
+  }
+  .skills-subheader {
+    max-width: 450px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .skills-subheader {
+    max-width: 250px;
+  }
+  .skills-header {
+    font-size: 25px;
   }
   .skills-header::after,
   .skills-header::before {
     margin: 0 5px 5px 5px;
     width: 30px;
   }
+
+  .icons-ul {
+    width: 300px;
+  }
 }
-@media screen and (max-width: 418px) {
+
+@media screen and (max-width: 400px) {
   .skills {
-    font-size: 25px;
+    font-size: 30px;
+  }
+
+  .skills-subheader {
+    max-width: 250px;
   }
   .skills-header {
-    font-size: 15px;
+    font-size: 16px;
   }
-  .skills-div {
-    margin-left: 60px;
+
+  .skills-subheader {
+    font-size: 14px;
+  }
+  .icons-ul {
+    width: 250px;
   }
 }

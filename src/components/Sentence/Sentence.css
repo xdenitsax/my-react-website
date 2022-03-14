@@ -1,5 +1,5 @@
 .sentance-bottom {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   color: #ffa500;
   font-size: 30px;
   margin-top: 100px;
@@ -13,7 +13,6 @@
 @media screen and (max-width: 800px) {
   .sentance-bottom {
     font-size: 20px;
-    margin-left: 60px;
   }
 }
 
